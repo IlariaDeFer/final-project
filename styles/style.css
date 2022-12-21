@@ -18,7 +18,7 @@ a, ul, li {
 }
 
 body {
-  font-family: Glacial Indifference;
+  font-family: 'Glacial Indifference';
 }
 
 /* header */
@@ -43,17 +43,19 @@ body {
 .header-left span {
   font-size: 13px;
   color: #B3B3B3;
+  font-family: 'Montserrat';
 }
 
 .header-right {
   position: relative;
-
 }
 
 .header-right .header-num {
   font-size: 160px;
   margin-bottom: 140px;
   color: #555555;
+  font-family: 'Poppins';
+  font-weight: bold;
 }
 
 .header-right h4 {
@@ -62,6 +64,8 @@ body {
   white-space: nowrap;
   top: 80px;
   left: -20px;
+  font-family: 'Poppins';
+  font-weight: bold;
 }
 
 .header-name {
@@ -98,6 +102,8 @@ font-size: 50px;
 
 .header-footer span {
   color: #E93656;
+  font-family: 'Montserrat';
+  font-weight: bold;
 }
 
 .header-footer h5 {
@@ -106,6 +112,8 @@ font-size: 50px;
   border-bottom: 6px solid #E93656;
   padding-bottom: 20px;
   padding-right: 87px;
+  font-family: 'Montserrat';
+  font-weight: bold;
 }
 
 /* main */
@@ -136,6 +144,7 @@ font-size: 50px;
   font-size: 14px;
   display: block;
   text-align: right;
+  font-family: 'Muli';
 }
 
 .job-info {
@@ -144,6 +153,7 @@ font-size: 50px;
   margin-top: 33px;
   margin-bottom: 60px;
   text-align: right;
+  font-family: 'Muli';
 }
 
 .about-designer button {
@@ -206,6 +216,7 @@ font-size: 50px;
 .contact-info span {
   color: #DFDFDF;
   font-size: 14px;
+  font-family: 'Muli';
 }
 
 /* grid */
@@ -248,6 +259,7 @@ font-size: 50px;
   color: white;
   font-size: 15px;
   text-align: right;
+  font-family: 'Roboto';
 }
 
 .designer img {
@@ -266,6 +278,7 @@ font-size: 50px;
   font-size: 13px;
   margin-top: 38px;
   margin-bottom: 19px;
+  font-family: 'Roboto';
 }
 
 .designer-profile h4 {
@@ -386,6 +399,7 @@ margin-bottom: 79px;
   margin-top: 34px;
   margin-bottom: 5px;
   display: block;
+  font-family: 'muli';
 }
 
 .graphic-designer h3 {
@@ -398,6 +412,7 @@ margin-bottom: 79px;
   font-size: 16px;
   margin-top: 29px;
   margin-bottom: 10px;
+  font-family: 'muli';
 }
 
 .graphic-designer a {
