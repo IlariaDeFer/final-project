@@ -12,7 +12,101 @@ a, ul, li {
   text-decoration: none;
 }
 
+.container {
+  max-width: 1786px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: Glacial Indifference;
+}
+
 /* header */
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 48px;
+}
+
+.header-left h4 {
+  font-size: 40px;
+  font-family: 'Poppins';
+  font-weight: bold;
+}
+
+.header-left h4 span {
+  color: #0081FF;
+  font-size: 33px;
+}
+
+.header-left span {
+  font-size: 13px;
+  color: #B3B3B3;
+}
+
+.header-right {
+  position: relative;
+
+}
+
+.header-right .header-num {
+  font-size: 160px;
+  margin-bottom: 140px;
+  color: #555555;
+}
+
+.header-right h4 {
+  font-size: 44px;
+  position: absolute;
+  white-space: nowrap;
+  top: 80px;
+  left: -20px;
+}
+
+.header-name {
+  margin-left: 55%;
+  margin-bottom: 182px;
+}
+
+.header-name h2 {
+font-size: 50px;
+}
+
+.header-name h1 {
+  font-size: 71px;
+}
+
+.header-name a {
+  font-size: 24px;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.header-footer {
+  display: flex;
+  justify-content: end;
+  gap: 5px;
+  padding-bottom: 73px;
+}
+
+.header-footer span {
+  color: #E93656;
+}
+
+.header-footer h5 {
+  font-size: 24px;
+  margin-right: 87px;
+  border-bottom: 6px solid #E93656;
+  padding-bottom: 20px;
+  padding-right: 87px;
+}
 
 /* main */
 
